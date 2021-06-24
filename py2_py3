@@ -1,0 +1,14 @@
+# -*- coding: utf-8 -*-
+
+"""
+Desc: 支持python2 python3,兼容py2py3
+Date: 2021/06/22
+"""
+
+import six
+if six.PY2:
+    from urllib2 import Request, urlopen
+    reload(sys)
+    sys.setdefaultencoding("utf-8")
+else:
+    import urllib.request
