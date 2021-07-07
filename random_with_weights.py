@@ -3,7 +3,7 @@
 import random
 import bisect
 
-# random.uniform(a,b)    用于生成一个指定范围内的随机浮点数，生成的随机整数a<=n<b
+# random.uniform(a,b)    用于生成一个指定范围内的随机浮点数，生成的随机整数a<=n<b.
 # random.randint(a,b)    用于生成一个指定范围内的整数，a为下限，b为上限，生成的随机整数a<=n<=b;若a=b，则n=a；若a>b，报错
 # random.shuffle(x[,random])    用于将一个列表中的元素打乱 （洗牌），会改变原始列表
 # random.sample(sequence,k)    从指定序列中随机获取k个元素作为一个片段返回，不会改变原有序列
